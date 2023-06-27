@@ -1,0 +1,97 @@
+$themeColors: (
+  "primary": #2196f3,
+  "secondary": #fff,
+  "background": #2f303a,
+  "text": #212121,
+  "project": #757575,
+  "filter": #f5f4fa,
+  "contact-footer": #ffffff99,
+  "logo": #000,
+);
+
+$themeFontsSize: (
+  "h1": 44px,
+  "h2": 36px,
+  "order-btn": 16px,
+  "menu": 14px,
+  "project": 18px,
+  "logo": 26px,
+  "modal": 20px,
+  "modal-forms-label": 12px,
+);
+
+$themeFontsWeight: (
+  "xl": 900,
+  "l": 700,
+  "m": 500,
+  "s": 400,
+);
+
+$themeFontsLineHeight: (
+  "h1": 1.36,
+  "h2": 1.17,
+  "order-btn": 1.87,
+  "menu": 1.14,
+  "project-name": 2,
+  "filter-name": 1.62,
+  "address": 1.71,
+  "logo": 1.19,
+  "overlay": 1.55,
+  "newsletter-input": 1.25,
+  "modal": 1.15,
+  "modal-forms-label": 1.17,
+);
+
+$themeFontsSpacing: (
+  "l": 0.06em,
+  "m": 0.03em,
+  "s": 0.02em,
+  "xs": 0.01em,
+);
+
+$themeBorder: (
+  "none": none,
+  "project-description": 1px solid #eeeeee,
+  "clients-box": 1px solid #afb1b8,
+  "modal-close-btn": 1px solid rgba(0, 0, 0, 0.1),
+  "newsletter-input": 1px solid rgba(255, 255, 255, 0.3),
+  "modal-forms-input": 1px solid rgba(33, 33, 33, 0.2),
+);
+
+$themeBorderRadius: (
+  "menu-underline": 2px,
+  "filter-name": 4px,
+  "team-box": 0px 0px 4px 4px,
+  "team-circle": 50%,
+);
+
+$themeTransition: (
+  "interaction": 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  "modal": transform 1s ease-in,
+  "hidden-opacity": opacity 1s,
+  "hidden-visibility": visibility 1s,
+);
+
+$themeMargin: (
+  "container": 0 auto,
+);
+
+$themePadding: (
+  "container": 0 15px,
+);
+
+@function getColor($key) {
+  @return map-get($themeColors, $key);
+}
+
+$alignItems: center;
+
+$justifyContent: (
+  "cent": center,
+  "spc-btwn": space-between,
+);
+
+$flexDirect: (
+  "row": row,
+  "column": column,
+);
