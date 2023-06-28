@@ -9,15 +9,12 @@
   &__name {
     flex-wrap: wrap;
     color: map-get($themeColors, "secondary");
-    font-size: 14px;
     line-height: 1.71;
-    font-weight: 400;
     letter-spacing: 0.03em;
   }
   &__link {
     font-size: 14px;
     line-height: 1.71;
-    font-weight: 400;
     color: map-get($themeColors, "contact-footer");
     letter-spacing: 0.03em;
   }

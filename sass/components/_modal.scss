@@ -30,11 +30,8 @@
     border: 1px solid map-get($themeColors, "primary");
     fill: map-get($themeColors, "primary");
   }
-  &__form {
-  }
+
   &__header {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -51,9 +48,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 40px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -110,14 +104,9 @@
     margin-bottom: 20px;
   }
   &__comment::placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
-  }
-  &__checkbox {
   }
 }

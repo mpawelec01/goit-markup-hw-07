@@ -7,16 +7,8 @@
     position: absolute;
     left: 55px;
     top: 449px;
-    // font-family: "Roboto";
-    // font-style: normal;
-    // font-weight: 400;
-    // font-size: 14px;
-    // line-height: 1.71px;
-    // letter-spacing: 0.03em;
-    // color: map-get($themeColors, "project");
   }
-  &__icon {
-  }
+
   &__agree {
     position: absolute;
     top: 1px;
@@ -30,9 +22,6 @@
     left: 3px;
   }
   &__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     margin-top: 20px;
@@ -47,8 +36,6 @@
     text-decoration-thickness: 1px;
   }
   &__button {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

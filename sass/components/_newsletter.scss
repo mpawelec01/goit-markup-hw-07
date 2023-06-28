@@ -8,10 +8,7 @@
   padding-bottom: 92px;
   &__header {
     color: map-get($themeColors, "secondary");
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     display: inline;
@@ -38,9 +35,6 @@
     margin-right: 8px;
   }
   &__input::placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     display: flex;
@@ -62,8 +56,6 @@
     color: map-get($themeColors, "secondary");
   }
   &__text {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
